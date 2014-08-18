@@ -7,24 +7,76 @@
         <title>The Seven Dolors of Mary</title>
 
         <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/7dolors.css">
 
         <!--[if lt IE 9]>
         <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
-        <script src="js/bootstrap.min.js"></script>
     </head>
     <body>
         <div id="body" class="container">
             <header>
-                <div class="row">
-                    The Seven Dolors of Mary
+                <div id="logo" class="row">
+                    <h1>The Seven Dolors of Mary</h1>
                 </div>
+                <div class="navbar">
+                    <div class="navbar-default navbar-inner">
+                        <ul id="tab-menu" class="nav nav-tabs">
+                            <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+                            <li><a data-toggle="tab" href="#promises">7 Promises</a></li>
+                            <li><a data-toggle="tab" href="#dolors">7 Dolors</a></li>
+                            <li><a data-toggle="tab" href="#prayer">Approved Prayers</a></li>
+                        </ul>
+                    </div>
+                </div>                
             </header>
-            <section>
+            <div class="tab-content">
+                <!-- Home tab -->
+                <div id="home" class="row tab-pane fade in active">
+                    <div class="col-md-5">
+                        <image src="img/our-lady-of-sorrows.jpg" alt="Our Lady of Sorrows" class="img-rounded" />
+                        <blockquote id="pray-for-us-quote">Sorrowful and Immaculate Heart of Mary,<br />Pray for us who have recourse to thee.</blockquote>
+                    </div>
+                    <div id="home-right-side-quotes" class="col-md-7">
+                        <blockquote id="behold-your-mother-quote">
+                            <p>Behold, your Mother.</p>
+                            <footer>(John 19:27)</footer>
+                        </blockquote>
+                        <blockquote>                            
+                            The time is now ripe.  I wish mankind to turn to <br />
+                            The Sorrowful and Immaculate Heart of My Mother. <br />
+                            Let this prayer be uttered by every soul.... <br />
+                            Let this prayer dictated by My Love as a supreme succor <br />
+                            be approved and indulgenced, no longer partially <br />
+                            and for a small portion of My flock, <br />
+                            but for the whole universe, <br />
+                            so that it may spread as a refreshing and purifying balm <br /> 
+                            of reparation that will appease My anger.
+                            <footer>Our Lord to Berthe Petit</footer>
+                        </blockquote>
+                    </div>
+                </div>
+
+                <!-- Promises tab -->
+                <div id="promises" class="row tab-pane fade">
+                    The promises
+                </div>
                 
-            </section>
+                <!-- Promises tab -->
+                <div id="dolors" class="row tab-pane fade">
+                    The dolors
+                </div>
+                
+                <!-- Promises tab -->
+                <div id="prayer" class="row tab-pane fade">
+                    The prayer
+                </div>
+            </div>
             <footer>
             </footer>
         </div>
+        <!-- End of page javascript -->
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
     </body>
 </html>

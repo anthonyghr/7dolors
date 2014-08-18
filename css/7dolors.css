@@ -1,0 +1,13 @@
+/* 
+    Created on : Aug 16, 2014, 9:39:46 AM
+    Author     : agallagher
+*/
+body { background-color: #FFCCCB; }
+#body { background-color: #FFF; margin-top: 15px; border-radius: 5px; }
+#body > header, #body > section, #body > footer { padding: 0 10px 0 10px; }
+#logo { padding-left: 15px; }
+#pray-for-us-quote { font-weight: bold; border-left: 0; }
+.tab-content > div { margin-left: auto; margin-right: auto; }  
+#home-right-side-quotes { margin-top: 30px; }
+#behold-your-mother-quote { margin-bottom: 30px; }
+#behold-your-mother-quote > p { font-size: 30px; margin-bottom: 0; }
