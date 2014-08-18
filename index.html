@@ -59,14 +59,16 @@
 
                 <!-- Promises tab -->
                 <div id="promises" class="row tab-pane fade">
-                    The promises
+                    <h3>The Seven Promises</h3>
+                    <p>These are the SEVEN PROMISES that God grants to those who honor The Blessed Virgin Mother daily by saying seven Hail Mary's while 
+                        contemplating her tears and sorrows during her life. This devotion was passed on to us by St. Bridget.</p>
                 </div>
-                
+
                 <!-- Promises tab -->
                 <div id="dolors" class="row tab-pane fade">
                     The dolors
                 </div>
-                
+
                 <!-- Promises tab -->
                 <div id="prayer" class="row tab-pane fade">
                     The prayer
@@ -78,5 +80,20 @@
         <!-- End of page javascript -->
         <script src="js/jquery-1.11.1.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script>            
+            $(document).ready(function () {
+                // Change tab based on hash on page load
+                var url = $(location).attr('href');
+                if (url.match('#')) {
+                    $('.nav-tabs a[href=#' + url.split('#')[1] + ']').tab('show') ;
+                }
+                
+                // When clicking a tab, update the hash
+                $('.nav-tabs a').click(function(e) {
+                    window.location.hash = e.target.hash;
+                });
+            });            
+        </script>
+
     </body>
 </html>

@@ -7,7 +7,8 @@ body { background-color: #FFCCCB; }
 #body > header, #body > section, #body > footer { padding: 0 10px 0 10px; }
 #logo { padding-left: 15px; }
 #pray-for-us-quote { font-weight: bold; border-left: 0; }
-.tab-content > div { margin-left: auto; margin-right: auto; }  
+.tab-content > div { margin-left: auto; margin-right: auto; padding-left: 15px; }  
 #home-right-side-quotes { margin-top: 30px; }
 #behold-your-mother-quote { margin-bottom: 30px; }
 #behold-your-mother-quote > p { font-size: 30px; margin-bottom: 0; }
+#promises > h3 { margin-top: 0; }
