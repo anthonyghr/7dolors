@@ -22,7 +22,7 @@
                 <div class="navbar">
                     <div class="navbar-default navbar-inner">
                         <ul id="tab-menu" class="nav nav-tabs">
-                            <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+                            <li><a data-toggle="tab" href="#home">Home</a></li>
                             <li><a data-toggle="tab" href="#promises">7 Promises</a></li>
                             <li><a data-toggle="tab" href="#dolors">7 Dolors</a></li>
                             <li><a data-toggle="tab" href="#prayer">Approved Prayers</a></li>
@@ -32,7 +32,7 @@
             </header>
             <div class="tab-content">
                 <!-- Home tab -->
-                <div id="home" class="row tab-pane fade in active">
+                <div id="home" class="row tab-pane fade">
                     <div class="col-md-5">
                         <image src="img/our-lady-of-sorrows.jpg" alt="Our Lady of Sorrows" class="img-rounded" />
                         <blockquote id="pray-for-us-quote">Sorrowful and Immaculate Heart of Mary,<br />Pray for us who have recourse to thee.</blockquote>
@@ -82,7 +82,7 @@
 
                 <!-- Promises tab -->
                 <div id="prayer" class="row tab-pane fade">
-                    <h4 class="page-title">The Approved Prayers Honoring the Seven Dolors of Mary <small>(Approved by Pope Pius VII in 1815)</small></h4>
+                    <h4 class="page-title">The Prayers Honoring the Seven Dolors of Mary <small>(Approved by Pope Pius VII in 1815)</small></h4>
                     <p>V. O God, come to my assistance; <br />
                         R. O Lord, make haste to help me. <br />
                         V. Glory be to the Father, etc. <br />
@@ -130,10 +130,15 @@
         <script>
             $(document).ready(function() {
                 // Change tab based on hash on page load
-                var url = $(location).attr('href');
+                var url, tab;
+                    
+                url = $(location).attr('href');
                 if (url.match('#')) {
-                    $('.nav-tabs a[href=#' + url.split('#')[1] + ']').tab('show');
+                    tab = url.split('#')[1];                                        
+                } else {
+                    tab = 'home';
                 }
+                $('.nav-tabs a[href=#' + tab  + ']').tab('show');
 
                 // When clicking a tab, update the hash
                 $('.nav-tabs a').click(function(e) {
