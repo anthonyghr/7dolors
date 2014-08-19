@@ -59,9 +59,20 @@
 
                 <!-- Promises tab -->
                 <div id="promises" class="row tab-pane fade">
-                    <h3>The Seven Promises</h3>
+                    <h4 class="page-title">The Promises</h4>
                     <p>These are the SEVEN PROMISES that God grants to those who honor The Blessed Virgin Mother daily by saying seven Hail Mary's while 
                         contemplating her tears and sorrows during her life. This devotion was passed on to us by St. Bridget.</p>
+                    <ol>
+                        <li>"I will grant Peace to their families."</li>
+                        <li>"They will be enlightened about the Divine Mysteries."</li>
+                        <li>"I will console them in their pains and I will accompany them in their work."</li>
+                        <li>"I will give them as much as they ask for as long as it does not oppose the adorable will of my Divine Son or the sanctification of their souls."</li>
+                        <li>"I will defend them in their spiritual battles with the infernal enemy and I will protect them at every instant of their lives."</li>
+                        <li>"I will visibly help them at the moment of their death, they will see the face of  their mother."</li>
+                        <li>"I  have obtained (This Grace) from my Divine Son, that those who propagate this devotion to my tears and dolors, 
+                            will be taken directly from this earthly life to eternal happiness since all their sins will be forgiven and my Son will 
+                            be their eternal consolation and joy."</li>
+                    </ol>
                 </div>
 
                 <!-- Promises tab -->
@@ -71,7 +82,43 @@
 
                 <!-- Promises tab -->
                 <div id="prayer" class="row tab-pane fade">
-                    The prayer
+                    <h4 class="page-title">The Approved Prayers Honoring the Seven Dolors of Mary <small>(Approved by Pope Pius VII in 1815)</small></h4>
+                    <p>V. O God, come to my assistance; <br />
+                        R. O Lord, make haste to help me. <br />
+                        V. Glory be to the Father, etc. <br />
+                        R. As it was in the beginning, etc. 
+                    </p>
+                    <ol>
+                        <li>I grieve for you, O Mary most sorrowful, in affliction of your tender heart at the prophecy of the holy and aged Simeon. 
+                            O dearest Mother, by your heart so afflicted, implore for me the virtue of humility and the Gift of the holy Fear of God. <br />
+                            <em>Hail Mary...</em>
+                        </li>
+                        <li>I grieve for you, O Mary most sorrowful, in the anguish of your most affectionate heart during the flight into Egypt and your sojourn there.  
+                            O dearest Mother, by your anxious heart so troubled, obtain for me the virtue of generosity, especially toward the poor, and the Gift of Piety. <br />
+                            <em>Hail Mary...</em>
+                        </li>
+                        <li>I grieve for you, O Mary most sorrowful, in those anxieties which tried your troubled heart at the loss of your beloved Child Jesus.  
+                            O dearest Mother, by your exeedingly troubled heart implore for me the virtue of chastity and the Gift of Knowledge. <br />
+                            <em>Hail Mary...</em>
+                        </li>
+                        <li>I grieve for you, O Mary most sorrowful, on account of the horror with which your mother-heart was stricken when meeting Jesus bearing the Cross.  
+                            O dearest Mother, by your exeedingly oppressed heart implore for me the virtue of patience and the Gift of Fortitude. <br />
+                            <em>Hail Mary...</em>
+                        </li>
+                        <li>I grieve for you, O Mary most sorrowful, on account of that martyrdom which tortured your generous heart at the death-agony of Jesus.  
+                            O dearest Mother, through this thy martyred heart, implore for me the virtue of temperance and the Gift of Counsel. <br />
+                            <em>Hail Mary...</em>
+                        </li>
+                        <li>I grieve for you, O Mary most sorrowful, in the wounding of your tender heart, by the thrust of the lance that opened the side of Jesus 
+                            and pierced His most adorable Heart.  
+                            O dearest Mother, by this vicarious transfixion of thy own heart, implore for me the virtue of brotherly love and the Gift of Understanding. <br />
+                            <em>Hail Mary...</em>
+                        </li>
+                        <li>I grieve for you, O Mary most sorrowful, on account of that agony which racked your most loving heart at the burial of Jesus.  
+                            O dearest Mother, through this extreme torment that filled thy burdened heart, obtain for me the virtue of zeal and the Gift of Wisdom. <br />
+                            <em>Hail Mary...</em> 
+                        </li>
+                    </ol>
                 </div>
             </div>
             <footer>
@@ -80,19 +127,19 @@
         <!-- End of page javascript -->
         <script src="js/jquery-1.11.1.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
-        <script>            
-            $(document).ready(function () {
+        <script>
+            $(document).ready(function() {
                 // Change tab based on hash on page load
                 var url = $(location).attr('href');
                 if (url.match('#')) {
-                    $('.nav-tabs a[href=#' + url.split('#')[1] + ']').tab('show') ;
+                    $('.nav-tabs a[href=#' + url.split('#')[1] + ']').tab('show');
                 }
-                
+
                 // When clicking a tab, update the hash
                 $('.nav-tabs a').click(function(e) {
                     window.location.hash = e.target.hash;
                 });
-            });            
+            });
         </script>
 
     </body>
