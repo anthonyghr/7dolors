@@ -12,6 +12,6 @@ body { background-color: #FFCCCB; }
 #behold-your-mother-quote { margin-bottom: 30px; }
 #behold-your-mother-quote > p { font-size: 30px; margin-bottom: 0; }
 .page-title { margin-top: 0; }
-#promises > ol { font-size: 16px; }
+#promises > ol, #dolors > ol { font-size: 16px; }
 #prayer > p { padding-left: 5px; }
 #prayer > ol { padding-left: 25px; }

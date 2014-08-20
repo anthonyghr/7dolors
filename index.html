@@ -23,8 +23,8 @@
                     <div class="navbar-default navbar-inner">
                         <ul id="tab-menu" class="nav nav-tabs">
                             <li><a data-toggle="tab" href="#home">Home</a></li>
-                            <li><a data-toggle="tab" href="#promises">7 Promises</a></li>
-                            <li><a data-toggle="tab" href="#dolors">7 Dolors</a></li>
+                            <li><a data-toggle="tab" href="#promises">Promises</a></li>
+                            <li><a data-toggle="tab" href="#dolors">Dolors</a></li>
                             <li><a data-toggle="tab" href="#prayer">Approved Prayers</a></li>
                         </ul>
                     </div>
@@ -59,25 +59,34 @@
 
                 <!-- Promises tab -->
                 <div id="promises" class="row tab-pane fade">
-                    <h4 class="page-title">The Promises</h4>
-                    <p>These are the SEVEN PROMISES that God grants to those who honor The Blessed Virgin Mother daily by saying seven Hail Mary's while 
+                    <h4 class="page-title">The Seven Promises of Mary</h4>
+                    <p>These are the promises that God grants to those who honor The Blessed Virgin Mother daily by saying seven Hail Mary's while 
                         contemplating her tears and sorrows during her life. This devotion was passed on to us by St. Bridget.</p>
                     <ol>
-                        <li>"I will grant Peace to their families."</li>
-                        <li>"They will be enlightened about the Divine Mysteries."</li>
-                        <li>"I will console them in their pains and I will accompany them in their work."</li>
-                        <li>"I will give them as much as they ask for as long as it does not oppose the adorable will of my Divine Son or the sanctification of their souls."</li>
-                        <li>"I will defend them in their spiritual battles with the infernal enemy and I will protect them at every instant of their lives."</li>
-                        <li>"I will visibly help them at the moment of their death, they will see the face of  their mother."</li>
-                        <li>"I  have obtained (This Grace) from my Divine Son, that those who propagate this devotion to my tears and dolors, 
+                        <li>I will grant Peace to their families.</li>
+                        <li>They will be enlightened about the Divine Mysteries.</li>
+                        <li>I will console them in their pains and I will accompany them in their work."</li>
+                        <li>I will give them as much as they ask for as long as it does not oppose the adorable will of my Divine Son or the sanctification of their souls.</li>
+                        <li>I will defend them in their spiritual battles with the infernal enemy and I will protect them at every instant of their lives.</li>
+                        <li>I will visibly help them at the moment of their death, they will see the face of  their mother.</li>
+                        <li>I  have obtained (This Grace) from my Divine Son, that those who propagate this devotion to my tears and dolors, 
                             will be taken directly from this earthly life to eternal happiness since all their sins will be forgiven and my Son will 
-                            be their eternal consolation and joy."</li>
+                            be their eternal consolation and joy.</li>
                     </ol>
                 </div>
 
                 <!-- Promises tab -->
                 <div id="dolors" class="row tab-pane fade">
-                    The dolors
+                    <h4 class="page-title">The Seven Dolors of Mary</h4>
+                    <ol>
+                        <li>The Prophecy of Simeon.</li>
+                        <li>The Flight into Egypt.</li>
+                        <li>The Loss of the Child Jesus.</li>
+                        <li>The Meeting of Jesus and Mary on the Way of the Cross.</li>
+                        <li>The Crucifixion.</li>
+                        <li>Jesus' body Struck by a Lance, Taken Down from the Cross.</li>
+                        <li>The Burial of Jesus.</li>
+                    </ol>
                 </div>
 
                 <!-- Promises tab -->
@@ -119,6 +128,14 @@
                             <em>Hail Mary...</em> 
                         </li>
                     </ol>
+                    <p>V. Sorrowful and Immaculate Heart of Mary, pray for us! <br />
+                        R. That we may be made worthy of the promises of Christ. 
+                    </p>
+                    <p><strong><em>Let Us Pray:</em></strong><br />
+                        Let intercession be made for us, we beseech You, O Lord Jesus Christ, now and at the hour of our death, before the throne of Your mercy, 
+                        by the Blessed Virgin Mary, Your Mother, whose most holy soul was pierced by a sword of sorrow in the hour of Your bitter Passion.  
+                        Through You, O Jesus Christ, Saviour of the world, who with the Father and the Holy Ghost lives and reigns world without end.  Amen.                         
+                    </p>
                 </div>
             </div>
             <footer>
@@ -127,25 +144,6 @@
         <!-- End of page javascript -->
         <script src="js/jquery-1.11.1.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
-        <script>
-            $(document).ready(function() {
-                // Change tab based on hash on page load
-                var url, tab;
-                    
-                url = $(location).attr('href');
-                if (url.match('#')) {
-                    tab = url.split('#')[1];                                        
-                } else {
-                    tab = 'home';
-                }
-                $('.nav-tabs a[href=#' + tab  + ']').tab('show');
-
-                // When clicking a tab, update the hash
-                $('.nav-tabs a').click(function(e) {
-                    window.location.hash = e.target.hash;
-                });
-            });
-        </script>
-
+        <script src="js/7dolors.js"></script>
     </body>
 </html>
