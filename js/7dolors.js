@@ -7,7 +7,7 @@
         if (url.match('#')) {
             tab = url.split('#')[1];
         } else {
-            tab = 'home';
+            tab = 'promises';
         }
         $('.nav-tabs a[href=#' + tab + ']').tab('show');
 

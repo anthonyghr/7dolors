@@ -6,12 +6,14 @@ body { background-color: #FFCCCB; }
 #body { background-color: #FFF; margin-top: 15px; border-radius: 5px; }
 #body > header, #body > section, #body > footer { padding: 0 10px 0 10px; }
 #logo { padding-left: 15px; }
-#pray-for-us-quote { font-weight: bold; border-left: 0; }
 .tab-content > div { margin-left: auto; margin-right: auto; padding-left: 15px; }  
-#home-right-side-quotes { margin-top: 30px; }
-#behold-your-mother-quote { margin-bottom: 30px; }
-#behold-your-mother-quote > p { font-size: 30px; margin-bottom: 0; }
 .page-title { margin-top: 0; }
-#promises > ol, #dolors > ol { font-size: 16px; }
+#promises-left-side { text-align: center; }
+#promises-left-side > p > span { font-size: 18px; font-weight: bold; }
+#pray-for-us-quote { font-weight: bold; border-left: 0; }
+#jesus-quote > blockquote { border-left: 0; }
+#jesus-quote span { font-style: italic; }
+#promises-right-side > p, #promises-right-side > ol, #dolors > ol { font-size: 16px; }
+#promises-right-side > h4 { margin-top: 40px; }
 #prayer > p { padding-left: 5px; }
 #prayer > ol { padding-left: 25px; }
