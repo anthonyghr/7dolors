@@ -15,6 +15,19 @@
         $('.nav-tabs a').click(function(e) {
             window.location.hash = e.target.hash;
         });
+        
+        
+        $('#dolors-nav a').click(function() {
+            var scrollAnchor = $(this).attr('data-scroll'),
+                scrollPoint  = $('div[data-anchor="'+scrollAnchor+'"]').offset().top - 10;
+
+           $('body, html').animate({
+               scrollTop: scrollPoint
+           }, 500);
+
+           return false;
+        });
+
     });
 })(jQuery);
 
