@@ -19,13 +19,20 @@
         
         $('#dolors-nav a').click(function() {
             var scrollAnchor = $(this).attr('data-scroll'),
-                scrollPoint  = $('div[data-anchor="'+scrollAnchor+'"]').offset().top - 10;
+                scrollPoint  = $('div[data-anchor="' +scrollAnchor + '"]').offset().top - 10;
 
            $('body, html').animate({
                scrollTop: scrollPoint
            }, 500);
 
            return false;
+        });
+        
+        $('.dolor a').click(function() {
+           $('body, html').animate({
+               scrollTop: 0
+           }, 500);
+           return false; 
         });
 
     });

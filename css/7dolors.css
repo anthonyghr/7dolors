@@ -3,6 +3,7 @@
     Author     : agallagher
 */
 body { background-color: #FFCCCB; }
+blockquote { border-left: 0; }
 #body { background-color: #FFF; margin-top: 15px; margin-bottom: 15px; border-radius: 5px; }
 #body > header, #body > section, #body > footer { padding: 0 10px 0 10px; }
 #logo { padding-left: 15px; }
@@ -11,14 +12,13 @@ body { background-color: #FFCCCB; }
 .page-section { width: 100%; background-color: #FFCCCB; padding: 3px; border-radius: 5px; }
 #promises-left-side { text-align: center; }
 #promises-left-side > p > span { font-size: 18px; font-weight: bold; }
-#pray-for-us-quote { font-weight: bold; border-left: 0; }
-#jesus-quote > blockquote { border-left: 0; }
+#pray-for-us-quote { font-weight: bold; }
 #jesus-quote span { font-style: italic; }
 #promises-right-side > p, #promises-right-side > ol { font-size: 16px; }
 #promises-right-side > h4 { margin-top: 45px; }
 #promises-right-side > ol { padding-left: 30px; }
 #dolors > .row { margin: 0; }
 #dolors ol { font-size: 16px; padding-left: 25px; }
-#dolors img.pull-left { width: 150px; }
+#dolors img.pull-left { width: 150px; margin: 10px;}
 #prayer > p { padding-left: 5px; }
 #prayer > ol { padding-left: 25px; }
