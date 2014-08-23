@@ -20,5 +20,6 @@ blockquote { border-left: 0; }
 #dolors > .row { margin: 0; }
 #dolors ol { font-size: 16px; padding-left: 25px; }
 #dolors img.pull-left { width: 150px; margin: 10px;}
+.dolor-pray-for-us { text-align: center; font-style: italic; font-size: 16px; }
 #prayer > p { padding-left: 5px; }
 #prayer > ol { padding-left: 25px; }
