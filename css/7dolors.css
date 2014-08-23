@@ -7,6 +7,9 @@ blockquote { border-left: 0; }
 #body { background-color: #FFF; margin-top: 15px; margin-bottom: 15px; border-radius: 5px; }
 #body > header, #body > section, #body > footer { padding: 0 10px 0 10px; }
 #logo { padding-left: 15px; }
+#logo > div { padding: 15px 0 10px 0; }
+#logo-symbol { height: 50px; margin-top: -27px; padding-right: 8px; }
+#logo h1 { display: inline; }
 .tab-content > div { margin-left: auto; margin-right: auto; padding-left: 15px; }  
 .page-title { margin-top: 0; }
 .page-section { width: 100%; background-color: #FFCCCB; padding: 3px; border-radius: 5px; }
