@@ -12,17 +12,22 @@ blockquote { border-left: 0; }
 #logo h1 { display: inline; }
 .tab-content > div { margin-left: auto; margin-right: auto; padding-left: 15px; }  
 .page-title { margin-top: 0; }
+.page-subtitle { margin-top: 25px; }
 .page-section { width: 100%; background-color: #FFCCCB; padding: 3px; border-radius: 5px; }
-#promises-left-side { text-align: center; }
-#promises-left-side > p > span { font-size: 18px; font-weight: bold; }
+.our-lady-image { height: 500px; margin: 0 20px; }
+#home-left-side > h2 { margin-top: 5px; margin-bottom: 20px; }
+#home-left-side > p { text-align: justify; font-size: 16px; }
+#home-right-side { margin-top: 10px; text-align: center; }
+.home-quote { padding: 15px; }
+.home-quote > span { font-size: 18px; font-style: italic; }
+.home-quote > footer { margin-top: 10px; }
+#home-right-side > p > span { font-size: 18px; font-weight: bold; }
 #pray-for-us-quote { font-weight: bold; }
-#jesus-quote span { font-style: italic; }
-#promises-right-side > p, #promises-right-side > ol { font-size: 16px; }
-#promises-right-side > h4 { margin-top: 45px; }
-#promises-right-side > ol { padding-left: 30px; }
 #dolors > .row { margin: 0; }
 #dolors ol { font-size: 16px; padding-left: 25px; }
-#dolors img.pull-left { width: 150px; margin: 10px;}
+#dolors img.pull-left { width: 150px; margin: 10px 20px 10px 10px;}
+.dolor blockquote { padding-left: 0; }
 .dolor-pray-for-us { text-align: center; font-style: italic; font-size: 16px; }
+.dolor-moment-with-mary { margin-top: 30px; }
 #prayer > p { padding-left: 5px; }
 #prayer > ol { padding-left: 25px; }
